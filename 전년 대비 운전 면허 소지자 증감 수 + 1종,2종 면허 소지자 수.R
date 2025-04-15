@@ -1,7 +1,5 @@
 library(tidyverse)
 library(corrr)
-install.packages("forecast")
-library(forecast)
 
 license_spe <- read_csv("license_spe.csv", locale=locale("ko", encoding="EUC-KR"), col_names=TRUE, na="")
 license_spe
